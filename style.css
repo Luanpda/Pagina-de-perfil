@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,231;1,231&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    color: white;
+    background-image: url(luke-chesser-eICUFSeirc0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 20px;
+   
+    
+}
+.container__texto{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 80px;
+}
+.container__texto__titulo{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.container__texto__paragrafro{
+    padding-left: 20px;
+}
+.container__imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 350px;
+    width: 350px;
+    margin-right: 20%;
+
+}
+.container__pai{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem{
+    border-radius:50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    display: block;
+}
