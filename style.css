@@ -2,56 +2,93 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
+
 body{
     height: 100vh;
+    box-sizing: border-box;
     color: white;
-    background-image: url(luke-chesser-eICUFSeirc0-unsplash.jpg);
+    background-image: url(/assets/abstract-textured-backgound.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
-
-.container{
-    
+.cabecalho{
     display: flex;
-    margin-top: 30px;
-    margin-left: 30px;
+    padding: 1% 0% 0% 2%;
     gap: 20px;
-   
     
 }
-.container__texto{
-    font-family: "Open Sans", serif;
-    font-weight: 400;
+.cabecalho__nome{
+    font-family: "Montserrat", sans-serif;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 10px;
+    padding: 5% 6% 5% 6%;
+    
+    
+    
+}
+.sobre{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    padding-top: 80px;
+    gap: 20px;
 }
+
+
 .container__texto__titulo{
     font-family: "Montserrat", serif;
     font-weight: 500;
-    padding-left: 50px;
-    padding-bottom: 50px;
+    
+    
 }
 
 .container__texto__paragrafro{
-    padding-left: 20px;
+    padding-left: 50px;
+    width: 500px;
 }
-.container__imagens{
+
+.outro__lado{
+    padding: 0% 7% 0% 0% ;
+    gap: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    height: 350px;
-    width: 350px;
-    margin-right: 20%;
+    
 
 }
-.container__pai{
+.links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.link{
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+    color: #20B2AA;
+    text-align: center;
+    width: 131px;
+    gap: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 16px;
+    background-color: black;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    border: 1px solid  #20B2AA;;
+}
+.link:hover{
+   
+   box-shadow: 0px 4px 8px #20B2AA;
 }
 
 .imagem{
