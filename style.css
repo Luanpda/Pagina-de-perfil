@@ -10,7 +10,7 @@ body{
     height: 100vh;
     box-sizing: border-box;
     color: white;
-    background-image: url(./assets/fundo.jpg);
+    background-image: url(fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
