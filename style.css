@@ -52,6 +52,8 @@ body{
 }
 
 .container__texto__paragrafro{
+    font-family: "Roboto", serif;
+    font-weight: 300;
     padding-left: 50px;
     width: 500px;
 }
