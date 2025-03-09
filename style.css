@@ -4,6 +4,7 @@
     padding: 0;
     max-width: 100%;
     box-sizing: border-box;
+    transition: color 0.3s ease-in-out;
 }
 
 body{
@@ -15,6 +16,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     
+}
+  
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,  
+p:hover, a:hover, span:hover, li:hover {
+    color: #20B2AA;
 }
 
 .cabecalho{
