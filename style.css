@@ -18,13 +18,26 @@ body{
 }
 
 .cabecalho{
+    
+    background-color: black;
     display: flex;
     padding: 1% 0% 0% 2%;
-    gap: 20px;
+    gap: 30px;
     
 }
+.cabecalho__textos{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .cabecalho__nome{
     font-family: "Montserrat", sans-serif;
+    
+}
+.cabecalho__nome1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
 }
 
 .principal{
